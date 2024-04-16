@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTcxMjc5MzgyOA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.caixa-maior {
+    background-color: black;
+    opacity: 0.8;
+    width: 95%;
+    max-width: 450px;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.lupa {
+    height: 15px;
+    width: 15px;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    background-color: rgb(73, 73, 73);
+    cursor: pointer;
+    border-radius: 50%;
+    float: right;
+}
+
+button:hover {
+    background-color:rgb(41, 41, 41) ;
+}
+
+input {
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: rgb(73, 73, 73);
+    color: #ffffff;
+    width: calc(100% - 100px);
+    font-size: 24px;
+}
+.caixa-menor {
+    margin-top: 30px;
+}
+
+
+.nuvem {
+    height: 30px;
+    width: 30px;
+    color: #ffffff;
+}
+
+.cidade {
+    color: #ffffff;
+    font-size: 28px;
+}
+
+.graus {
+    color:#ffffff;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+
+.umidade {
+    color: #ffffff;
+    margin-top: 30px;
+}
